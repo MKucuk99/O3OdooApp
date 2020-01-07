@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com.Odoo.stepdefinitions",
         dryRun = false,
-        tags = ""
+        tags = "@eventsCrmManager"
 
 )
 
