@@ -23,7 +23,7 @@ public class LoginPage {
         Driver.get().get("http://34.220.250.213/web/login");
 
         LoginPage loginPage = new LoginPage();
-        loginPage.userName.sendKeys("expensesmanager44@info.com");
+        loginPage.userName.sendKeys("expensesmanager40@info.com");
         loginPage.passWord.sendKeys("expensesmanager");
         loginPage.submit.click();
 
