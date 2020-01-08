@@ -12,7 +12,6 @@ public class Hook {
     public void setup(){
         System.out.println("###############################");
         System.out.println("Test Setup!");
-        Driver.get().manage().window().maximize();
     }
 
     //Closing windows and passing results to test suite
