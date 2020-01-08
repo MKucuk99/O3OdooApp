@@ -20,4 +20,9 @@ public class CRM_CreateStepDefinitions {
     public void userVerifiesThatButtonIsClickable(String string) {
         System.out.println("Verifying that "+ string+ " button is clickable");
     }
+
+    @And("user should be able to crate a opportunity")
+    public void userShouldBeAbleToCrateAOpportunity() {
+
+    }
 }
