@@ -1,4 +1,4 @@
-package com.Odoo.stepdefinitions;
+package com.Odoo.pages;
 
 import com.Odoo.utilities.BrowserUtils;
 import com.Odoo.utilities.Driver;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Import_LoadFile {
+public class importPage {
 
     @FindBy(css = "div[class='loader-mask shown']")
     public WebElement loaderMask;
@@ -46,5 +46,4 @@ public class Import_LoadFile {
         BrowserUtils.waitForVisibility(loadFile, 15);
         loadFile.sendKeys(pathToTheFile);
     }
-
-   }
+}
