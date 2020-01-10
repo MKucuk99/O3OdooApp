@@ -25,4 +25,16 @@ public class CRM_CreateStepDefinitions {
     public void userShouldBeAbleToCrateAOpportunity() {
 
     }
+
+    @Given("user is on the login page")
+    public void userIsOnTheLoginPage() {
+    }
+
+    @Then("user logs in as events CRM manager")
+    public void userLogsInAsEventsCRMManager() {
+    }
+
+    @And("user verifies that {string} page subtitle is displayed")
+    public void userVerifiesThatPageSubtitleIsDisplayed(String arg0) {
+    }
 }

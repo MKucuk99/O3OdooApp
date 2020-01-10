@@ -1,7 +1,7 @@
 
-  Feature: Create event in CRM
+  Feature: Create opportunity in CRM
 
-  As a authorized user i should be able to create an opportunity
+  As an authorized user i should be able to create an opportunity
 
     @eventsCrmManager
     Scenario: Create an event in CRM
