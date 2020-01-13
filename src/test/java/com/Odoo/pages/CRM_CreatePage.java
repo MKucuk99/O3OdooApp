@@ -4,7 +4,8 @@ import com.Odoo.utilities.BrowserUtils;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class CRM_CreatePage extends LoginPage {
+public class CRM_CreatePage extends BasePage{
+
 
     @FindBy(css = "class=\"oe_menu_text\"")
     public WebElement menu;
@@ -26,4 +27,3 @@ public class CRM_CreatePage extends LoginPage {
         createButton.click();
     }
 }
-
