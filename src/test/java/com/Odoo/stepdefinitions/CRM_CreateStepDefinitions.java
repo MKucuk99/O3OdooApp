@@ -39,4 +39,19 @@ public class CRM_CreateStepDefinitions {
     public void userNavigatesToModule(String moduleName) {
         loginPage.navigateToModule(moduleName);
     }
+/*
+********** needs to be checked  *****************
+    @Given("user is on the login page")
+    public void userIsOnTheLoginPage() {
+    }
+
+    @Then("user logs in as events CRM manager")
+    public void userLogsInAsEventsCRMManager() {
+    }
+
+    @And("user verifies that {string} page subtitle is displayed")
+    public void userVerifiesThatPageSubtitleIsDisplayed(String arg0) {
+    }
+
+ */
 }
